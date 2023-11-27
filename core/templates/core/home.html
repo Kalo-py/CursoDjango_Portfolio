@@ -1,0 +1,12 @@
+{% extends 'core/base.html' %}
+
+{%block title%}Portada{% endblock %}
+
+<!-- imagen de cabecera -->
+{% block background%}{%load static%}{% static 'core/img/home-bg.jpg' %}{%endblock%}
+
+<!-- Titulo de cabecera -->
+{%block headers%}
+<h1>Carlos Reyes</h1>
+<span class="subheading">Ingeniero Informatico</span>
+{%endblock%}
